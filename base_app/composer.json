@@ -1,0 +1,22 @@
+{
+    "name": "nicolasharraudeau/base_app",
+    "type": "project",
+    "require-dev": {
+        "pds/skeleton": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Nicolas Harraudeau",
+            "email": "nicolas.harraudeau@sonarsource.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {},
+    "scripts": {
+        "run": "App\\Application::main"
+    }
+}
