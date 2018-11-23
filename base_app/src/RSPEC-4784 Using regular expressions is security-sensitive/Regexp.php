@@ -2,9 +2,6 @@
 
 // The functions are Questionable whatever their argument unless specified otherwise.
 
-// Disable deprecation warning
-error_reporting(E_ALL ^ E_DEPRECATED);
-
 function validateInput($pattern, $inputs)
 {
     $replacement = 'myvalue';
@@ -58,6 +55,3 @@ function validateInput($pattern, $inputs)
     mb_ereg_search($pattern); // Questionable
     mb_ereg_search(); // OK
 }
-
-validateInput('/[A-Za-z0-9]+/', array('thisstringismatched thisoneisnot#$%@ but it still '
-    . 'passes the regexp because of the missing anchors.'));

@@ -2,9 +2,6 @@
 
 // The functions are Questionable whatever their argument unless specified otherwise.
 
-// Disable deprecation warning
-error_reporting(E_ALL ^ E_DEPRECATED);
-
 function hashData($data, $salt) {
     hash("md5", $data); // Questionable
     
@@ -17,6 +14,9 @@ function hashData($data, $salt) {
     openssl_pbkdf2($data, $salt, 42, 42); // Questionable
     md5($data); // Questionable
     sha1($data); // Questionable
-}
 
-hashData('sensitive data', 'mysalt');
+    // TODO
+    // https://book.cakephp.org/3.0/en/core-libraries/security.html
+    // https://docs.zendframework.com/zend-crypt/password/
+    // ?? https://docs.zendframework.com/zend-crypt/key-derivation/ ??
+}

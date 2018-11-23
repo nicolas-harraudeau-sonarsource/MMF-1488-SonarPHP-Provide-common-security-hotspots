@@ -18,6 +18,14 @@
         }
     },
     "require": {
+        "cakephp/cakephp": "^3.6",
+        "zendframework/zendframework": "^3.0",
+        "illuminate/encryption": "^5.7",
+        "illuminate/http": "^5.7",
+        "laravel/framework": "^5.7"
+    },
+    "config": {
+        "vendor-dir": "vendor/"
     },
     "scripts": {
         "run": "App\\Application::main"
