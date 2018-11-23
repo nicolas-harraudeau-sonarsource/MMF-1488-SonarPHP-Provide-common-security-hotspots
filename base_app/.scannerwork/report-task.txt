@@ -1,0 +1,6 @@
+projectKey=PHPBaseApp
+serverUrl=http://localhost:9000
+serverVersion=7.4.0.18908
+dashboardUrl=http://localhost:9000/dashboard?id=PHPBaseApp
+ceTaskId=AWc_tAARlbOrkk6l2QUP
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWc_tAARlbOrkk6l2QUP
