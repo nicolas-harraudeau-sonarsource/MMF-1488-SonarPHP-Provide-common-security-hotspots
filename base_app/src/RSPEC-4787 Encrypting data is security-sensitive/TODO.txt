@@ -1,0 +1,16 @@
+
+=== TODO LATER ===
+
+* CodeIgniter:
+see: https://www.codeigniter.com/user_guide/libraries/encryption.html
+The following is for now ignored. It should generate later a vulnerability as encryption keys should not be hard coded.
+$config['encryption_key'] = "bla"; // Questionable
+
+* Laravel
+see: https://laravel.com/docs/5.7/encryption#configuration
+password should not be commited to repo
+see "key" option in config/app.php
+
+* Magento
+see: https://www.magevision.com/blog/post/decrypt-an-encrypted-config-value-magento-2/
+It is not clear yet what should raise an issue. More research needed.

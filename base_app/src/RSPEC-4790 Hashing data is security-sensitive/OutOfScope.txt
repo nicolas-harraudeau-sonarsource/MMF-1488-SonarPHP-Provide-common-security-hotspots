@@ -1,0 +1,4 @@
+### The following are out of scope ###
+
+https://symfony.com/doc/current/security.html#c-encoding-passwords
+The security.yaml file enables to configure how passwords are hashed

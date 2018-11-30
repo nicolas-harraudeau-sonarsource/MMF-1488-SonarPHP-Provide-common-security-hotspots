@@ -1,2 +1,2 @@
 #!/bin/sh
-./vendor/bin/phan
+./vendor/bin/phan --progress-bar --color --strict-type-checking --signature-compatibility
