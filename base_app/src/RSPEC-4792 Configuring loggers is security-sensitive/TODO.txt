@@ -1,0 +1,5 @@
+* Handling logger configuration files
+see https://www.loggly.com/ultimate-guide/php-logging-basics/
+
+** Logging libraries
+see https://www.loggly.com/ultimate-guide/php-logging-libraries/

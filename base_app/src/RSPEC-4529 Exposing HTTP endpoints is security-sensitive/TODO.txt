@@ -1,0 +1,5 @@
+http://php.net/manual/en/function.header.php
+
+
+OUT OF SCOPE
+CakePHP controller. We wouldn't be able to detect subclasses of subclasses of Controller.

@@ -1,0 +1,12 @@
+Popularity: https://packagist.org/packages/rncryptor/rncryptor?query=HTTPClient
+
+* https://reactphp.org/http-client/
+* https://github.com/sendgrid/php-http-client
+* https://github.com/yiisoft/yii2-httpclient
+* https://github.com/kriswallsmith/Buzz => NO because it us used for tests.
+* http://requests.ryanmccue.info/
+* http://httplug.io/
+* http://phphttpclient.com/
+* http://unirest.io/php.html
+* https://github.com/php-curl-class/php-curl-class
+* https://docs.zendframework.com/zend-http/request/

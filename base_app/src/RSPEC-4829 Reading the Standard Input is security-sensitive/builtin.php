@@ -18,7 +18,7 @@ stream_get_contents(STDIN, 1); // Questionable
 fgetcsv(STDIN); // Questionable
 
 
-// Except those references
+// Except those references as they can't create an injection vulnerability.
 ftruncate(STDIN, 5); // OK
 ftell(STDIN); // OK
 feof(STDIN); // OK

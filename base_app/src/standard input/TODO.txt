@@ -1,0 +1,1 @@
+* Password prompt: https://docs.zendframework.com/zend-console/prompts/

@@ -1,0 +1,8 @@
+
+
+* https://forum.antichat.ru/threads/70763/
+http://www.php.net/manual/en/function.dl.php
+
+* http://php.net/manual/en/filesystem.configuration.php#ini.allow-url-include
+This could maybe cause code injection
+
