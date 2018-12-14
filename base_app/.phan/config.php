@@ -38,7 +38,9 @@ return [
     //       to `exclude_analysis_directory_list`.
     "exclude_analysis_directory_list" => [
         'vendor/',
-        'src/RSPEC-4787 Encrypting data is security-sensitive/EncryptCodeIgniter.php'
+        'src/RSPEC-4787 Encrypting data is security-sensitive/EncryptCodeIgniter.php',
+        'src/RSPEC-4797 Handling files is security-sensitive/builtin_out_of_scope.php',
+        'src/RSPEC-4823 Using command line arguments is security-sensitive/out_of_scope_MyGetOptionKit.php'
     ],
     "suppress_issue_types" => [
         "DeprecatedError",

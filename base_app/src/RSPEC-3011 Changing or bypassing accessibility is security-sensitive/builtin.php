@@ -43,10 +43,11 @@ $clazz->getStaticPropertyValue('publicstatic'); // OK as there is no overloading
 
 $clazz->getstaticProperties(); // Questionable. This gives access to private static properties
 
-$clazz->getConstant('CONST_PRIVATE'); // Questionable. This can access private or protected constants.
-$clazz->getConstants(); // Questionable. This can access private or protected constants.
-$clazz->getReflectionConstant('CONST_PRIVATE'); // Questionable. This can access private or protected constants.
-$clazz->getReflectionConstants(); // Questionable. This can access private or protected constants.
+// The following calls can access private or protected constants.
+$clazz->getConstant('CONST_PRIVATE'); // Questionable. 
+$clazz->getConstants(); // Questionable. 
+$clazz->getReflectionConstant('CONST_PRIVATE'); // Questionable.
+$clazz->getReflectionConstants(); // Questionable.
 
 $obj = $clazz->newInstanceWithoutConstructor(); // Questionable. Bypassing private constructor.
 

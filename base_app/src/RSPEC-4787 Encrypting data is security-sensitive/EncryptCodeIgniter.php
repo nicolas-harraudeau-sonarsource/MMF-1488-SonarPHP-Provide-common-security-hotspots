@@ -13,15 +13,7 @@ class EncryptionController extends CI_Controller
 
     public function index()
     {
-
         // Note: for this framework we raise issues on key creation as it is not provided to the "encrypt" function but stored instead in "application/config/config.php".
-        $this->encryption->hkdf(
-            $key,
-            'sha512',
-            NULL,
-            NULL,
-            'authentication'
-        );
         $this->encryption->create_key(16); // Questionable. Calling "encryption->create_key". Review the key length.
         $this->encryption->initialize( // Questionable. Calling "encryption->initialize"
             array(
@@ -31,8 +23,5 @@ class EncryptionController extends CI_Controller
             )
         );
         $this->encryption->encrypt("mysecretdata"); // Questionable. Calling "encryption->encrypt"
-
-
-
     }
 }

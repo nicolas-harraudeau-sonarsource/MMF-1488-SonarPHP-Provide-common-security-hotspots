@@ -40,5 +40,6 @@ for php_version in "php-7.2.12" "php-5.6.38"; do
 
     # for zendframework/zend-soap
     phpbrew ext install soap
-    # phpbrew ext install 
+
+    FLAGS="-I/Users/nicolasharraudeau/.phpbrew/build/php-7.2.12/" phpbrew ext install mysqli
 done

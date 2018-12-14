@@ -19,7 +19,7 @@ function sendHttpRequest($url) {
     
     // The following are questionable when used with a hard coded http or https url. The limitation is to avoid False positives.
     file_get_contents($hardCodedURL); // Questionable
-    fopen($hardCodedURL);  // Questionable
+    fopen($hardCodedURL, 'r');  // Questionable
     readfile($hardCodedURL); // Questionable
     copy($hardCodedURL, 'test.txt'); // Questionable
     file($hardCodedURL); // Questionable

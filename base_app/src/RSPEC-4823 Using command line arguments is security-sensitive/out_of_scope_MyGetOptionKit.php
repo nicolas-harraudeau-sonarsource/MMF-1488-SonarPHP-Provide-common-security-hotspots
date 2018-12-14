@@ -17,7 +17,7 @@ $optionParser = new OptionParser($specifications);
 
 echo "Enabled options: \n";
 try {
-    $result = $optionParser->parse( $argv );
+    $result = $optionParser->parse( $argv ); // This one is ok as it needs $argv. Thus nothing special for this library
     foreach ($result->keys as $key => $spec) {
         print_r($spec);
     }

@@ -1,6 +1,6 @@
 <?php
 
-function handle_cookie() {
+function handle_cookie($name) {
     global $HTTP_COOKIE_VARS;
     $value= "1234 1234 1234 1234"; 
     

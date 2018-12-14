@@ -6,5 +6,5 @@
 
 // https://www.drupal.org/project/encrypt
 function drupalEncrypt() {
-    $encrypted_text = encrypt('some string to encrypt');
+    $encrypted_text = encrypt('some string to encrypt'); // Questionable
 }
